@@ -1,16 +1,12 @@
 # programnc4_async_streams
 
-A new Flutter project.
+A Flutter project containing three *Dart console* examples in lib/:
+- part1_future.dart — Future + await
+- part2_error_handling.dart — Future with error handling
+- part3_stream.dart — Stream emitting 1–5 with delays
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to run
+```bash
+dart run lib/part1_future.dart
+dart run lib/part2_error_handling.dart
+dart run lib/part3_stream.dart
